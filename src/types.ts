@@ -1,10 +1,10 @@
-export interface IList {
+export interface ListI {
   readonly id: number;
   name: string;
-  cards: ICard[];
+  cards: CardI[];
 }
 
-export interface ICard {
+export interface CardI {
   readonly id: number;
   text: string;
 }

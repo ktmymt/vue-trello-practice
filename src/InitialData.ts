@@ -1,6 +1,6 @@
-import { IList } from "@/types";
+import { ListI } from "@/types";
 
-export function createInitialLists(): IList[] {
+export function createInitialLists(): ListI[] {
   return [
     {
       id: 1,

@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import { IList } from "@/types";
+import { ListI } from "@/types";
 import List from "@/components/List.vue";
 import { createInitialLists } from "@/InitialData.ts";
 
@@ -16,7 +16,7 @@ import { createInitialLists } from "@/InitialData.ts";
   }
 })
 export default class App extends Vue {
-  lists: IList[] = createInitialLists();
+  lists: ListI[] = createInitialLists();
 }
 </script>
 

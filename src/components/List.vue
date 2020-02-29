@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { IList } from "@/types";
+import { ListI } from "@/types";
 import Card from "@/components/Card.vue";
 
 @Component({
@@ -17,7 +17,7 @@ import Card from "@/components/Card.vue";
 })
 export default class List extends Vue {
   @Prop({ type: Object, required: true })
-  list!: IList;
+  list!: ListI;
 }
 </script>
 
